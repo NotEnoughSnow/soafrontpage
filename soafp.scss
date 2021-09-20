@@ -1,8 +1,8 @@
-body {
-  background-color: white;
-}
 * {
   margin-left: 0;
+}
+body {
+  background-color: black;
 }
 .container {
    width: 5760px;
@@ -10,6 +10,7 @@ body {
   background-position: top;
   position: relative;
   overflow: hidden;
+  margin-top: 50px;
 }
 .layer {
   position: absolute;
@@ -37,8 +38,7 @@ body {
 }
 .filter{
   width: 1920px;
- height: 850px;
- background-position: top;
+ height: 1000px;
  top:0;
  left:0;
  position: absolute;
