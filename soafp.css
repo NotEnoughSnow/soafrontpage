@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+}
+
+* {
+  margin-left: 0;
+}
+
+.container {
+  width: 5760px;
+  height: 850px;
+  background-position: top;
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.back {
+  width: inherit;
+  height: inherit;
+  background-position: top;
+  position: relative;
+  background-color: #bff4f2;
+}
+
+.sky {
+  width: 4300px;
+  background: url("resources/sky.png");
+  height: inherit;
+  background-position: top;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.filter {
+  width: 1920px;
+  height: 850px;
+  background-position: top;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0.1;
+  position: fixed;
+  background-color: #03d5c4;
+}
+
+/*# sourceMappingURL=soafp.css.map */
